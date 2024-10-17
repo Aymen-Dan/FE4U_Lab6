@@ -88,10 +88,8 @@ const Login = (props) => {
             localStorage.setItem('user', JSON.stringify({ email, token: r.token }))
             props.setLoggedIn(true)
             props.setEmail(email)
-            //the next line of code is what navigates back to the welcome page after a successful log in
-            //navigate('/')
-            //probably should add a check that verifies if this is a reload of the page, so that it still
-            window.alert('success!');
+            //window.alert('success!');
+            navigate('/weather')
           } else {
             window.alert('Wrong email or password')
           }

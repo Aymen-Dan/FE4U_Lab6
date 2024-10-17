@@ -1,42 +1,63 @@
+.notHeader {
+padding: 0 120px 0 120px;
+}
+
+
 .header_bar {
-border: 3px solid gray;
+//border: 3px solid gray;
 display: flex;
 height: 50px;
+background-color: #C7B4A8;
 }
 
 .main_header {
-//border: 3px solid gray;
+//border: 1px solid gray;
 font-weight: bold;
 font-size: 16pt;
-
+margin-left: 30px;
+height: 100%;
 }
 
 .main-navigation li {
-border: 3px solid gray;
+//border: 1px solid gray;
   display: inline-block;
+  margin: 0 9px 0 9px;
+}
+
+.main-navigation a {
+color: black;
+text-decoration: none;
 }
 
 .main-navigation {
-border: 3px solid gray;
+//border: 3px solid blue;
 font-weight: bold;
-margin-right: 20%;
+margin-right: 2%;
+width: 400px;
 }
 
 .input_search {
 //border: 3px solid gray;
 height: 30px;
-float: right;
-//margin: 6% 0 7% 0;
+
+}
+
+.search_container {
+//border: 3px solid gray;
+height: 34px;
+padding-left: 51%;
+margin-top: 8px;
 }
 
 .title_div {
-border: 1px solid red;
+//border: 1px solid red;
 }
 
 .location_container {
-border: 1px solid yellow;
+//border: 1px solid yellow;
 display: flex;
 float: left;
+
 }
 
 #city_text {
@@ -45,20 +66,21 @@ font-weight: bold;
 }
 
 #country_text{
+//border: 1px solid blue;
 font-size: 10pt;
-border: 1px solid blue;
-padding-top: 35px;
+padding-top: 37px;
+margin-left: 10px;
 }
 
 .time_container {
-border: 1px solid yellow;
+//border: 1px solid yellow;
 float: right;
 font-weight: bold;
 font-size: 10pt;
 }
 
 .weather_boxes_container {
-border: 1px solid blue;
+//border: 1px solid blue;
 display: flex;
 width: 100%;
 height: 300px;

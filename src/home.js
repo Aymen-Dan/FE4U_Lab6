@@ -7,8 +7,8 @@ const Home = (props) => {
 
   const onButtonClick = () => {
     if (loggedIn) {
-      localStorage.removeItem('user')
-      props.setLoggedIn(false)
+//      localStorage.removeItem('user')
+//      props.setLoggedIn(false)
     } else {
       navigate('/login')
     }
@@ -25,9 +25,9 @@ const Home = (props) => {
           className={'inputButton'}
           type="button"
           onClick={onButtonClick}
-          value={loggedIn ? 'Log out' : 'Log in'}
+          value={'Log in'}
         />
-        {loggedIn ? <div>Your login is {email}</div> : <div />}
+
       </div>
     </div>
   )
