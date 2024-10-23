@@ -3,6 +3,7 @@ import Home from './home';
 import Login from './login';
 import Weather from './weather';
 import Display from './display';
+import Loader from './loader';
 import './css/App.css';
 import './css/weather_page.css';
 import { useEffect, useState } from 'react';
@@ -23,6 +24,7 @@ function App() {
           <Route path="/login" element={<Login setLoggedIn={setLoggedIn} setEmail={setEmail} />} />
           <Route path="/weather" element={<Weather/>} />
           <Route path="/display" element={<Display/>} />
+          <Route path="/loader" element={<Loader/>} />
         </Routes>
       </BrowserRouter>
     </div>
