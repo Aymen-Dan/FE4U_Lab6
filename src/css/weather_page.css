@@ -81,6 +81,7 @@ font-size: 10pt;
 
 .weather_boxes_container {
 //border: 1px solid blue;
+padding-top: 40px;
 display: flex;
 width: 100%;
 height: 300px;
@@ -88,9 +89,13 @@ justify-content: space-between;
 }
 
 .weather_box {
-border: 1px solid #000;
+//border: 1px solid #000;
 width: 15%;
 margin: 2px;
 text-align: left;
 padding: 1px;
+}
+
+.weather_box_data {
+margin-bottom: 5px;
 }

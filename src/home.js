@@ -1,6 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
+  document.body.style.backgroundImage = "url('img/bg_img.png')";
+
 const Home = (props) => {
   const { loggedIn, email } = props;
   const navigate = useNavigate();
@@ -13,6 +15,7 @@ const Home = (props) => {
       navigate('/login')
     }
   }
+
 
   return (
     <div className="mainContainer">
